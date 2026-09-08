@@ -1,0 +1,65 @@
+{
+  "id": "local.qx.sign",
+  "name": "自用签到（QX）",
+  "author": "@local",
+  "icon": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png",
+  "repo": "https://github.com/bestppp/qx-scripts",
+  "apps": [
+    {
+      "id": "jlc-beans",
+      "name": "嘉立创金豆",
+      "keys": ["jlc_token", "jlc_secret"],
+      "settings": [
+        { "id": "jlc_token", "name": "x-jlc-accesstoken", "val": "", "type": "textarea", "placeholder": "不要填 Cookie" },
+        { "id": "jlc_secret", "name": "secretkey", "val": "", "type": "text" }
+      ],
+      "author": "@local",
+      "repo": "https://github.com/bestppp/qx-scripts",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png"]
+    },
+    {
+      "id": "jlc-oshw",
+      "name": "立创开源",
+      "keys": ["oshw_cookie"],
+      "settings": [
+        { "id": "oshw_cookie", "name": "oshwhub Cookie", "val": "", "type": "textarea", "placeholder": "需含 oshwhub_session" }
+      ],
+      "author": "@local",
+      "repo": "https://github.com/bestppp/qx-scripts",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png"]
+    },
+    {
+      "id": "jindian",
+      "name": "金典有机生活+",
+      "keys": ["jindian_token"],
+      "settings": [
+        { "id": "jindian_token", "name": "access-token", "val": "", "type": "textarea" }
+      ],
+      "author": "@local",
+      "repo": "https://github.com/bestppp/qx-scripts",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png"]
+    },
+    {
+      "id": "amx",
+      "name": "安慕希",
+      "keys": ["amx_token"],
+      "settings": [
+        { "id": "amx_token", "name": "access-token", "val": "", "type": "textarea" }
+      ],
+      "author": "@local",
+      "repo": "https://github.com/bestppp/qx-scripts",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png"]
+    },
+    {
+      "id": "tastien",
+      "name": "塔斯汀",
+      "keys": ["tastien_token"],
+      "settings": [
+        { "id": "tastien_token", "name": "user-token", "val": "", "type": "textarea" }
+      ],
+      "author": "@local",
+      "repo": "https://github.com/bestppp/qx-scripts",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png"]
+    }
+  ]
+}

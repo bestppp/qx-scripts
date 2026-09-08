@@ -1,0 +1,13 @@
+{
+  "name": "自用签到",
+  "description": "嘉立创 / 伊利 / 塔斯汀。抓包 Rewrite 用完请关掉。同一账号不要和呆呆面板重复签到。",
+  "task": [
+    "30 6 * * * https://raw.githubusercontent.com/bestppp/qx-scripts/main/scripts/jlc.js, tag=嘉立创金豆, enabled=true",
+    "25 */4 * * * https://raw.githubusercontent.com/bestppp/qx-scripts/main/scripts/jlc_keepalive.js, tag=嘉立创金豆保活, enabled=true",
+    "44 5 * * * https://raw.githubusercontent.com/bestppp/qx-scripts/main/scripts/oshw.js, tag=立创开源签到, enabled=true",
+    "20 */4 * * * https://raw.githubusercontent.com/bestppp/qx-scripts/main/scripts/oshw_keepalive.js, tag=立创开源保活, enabled=true",
+    "56 7 * * * https://raw.githubusercontent.com/bestppp/qx-scripts/main/scripts/jindian.js, tag=金典签到, enabled=true",
+    "33 14 * * * https://raw.githubusercontent.com/bestppp/qx-scripts/main/scripts/amx.js, tag=安慕希签到, enabled=true",
+    "10 9 * * * https://raw.githubusercontent.com/bestppp/qx-scripts/main/scripts/tastien.js, tag=塔斯汀签到, enabled=true"
+  ]
+}
