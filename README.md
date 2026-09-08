@@ -13,6 +13,9 @@
    `https://raw.githubusercontent.com/bestppp/qx-scripts/main/gallery.json`
 3. **BoxJs** 订阅（可选）  
    `https://raw.githubusercontent.com/bestppp/qx-scripts/main/boxjs.json`
+4. **社区图库**（爱奇艺 / 吾爱 / 值得买等，默认关闭）  
+   `https://raw.githubusercontent.com/bestppp/qx-scripts/main/community.gallery.json`  
+   说明见 [COMMUNITY.md](COMMUNITY.md)。抓包用单独的 `community-rewrite.conf`。
 
 QX 需开启 VPN / Tunnel，定时任务还要打开右上角闹钟。
 

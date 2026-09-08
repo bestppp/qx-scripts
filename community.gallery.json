@@ -1,0 +1,20 @@
+{
+  "name": "社区脚本（引用原作者，默认关闭）",
+  "description": "2026-09 抽查 raw 地址仍为 HTTP 200，且排除解锁类/京东全家桶。默认 enabled=false，勾选后再抓 CK。版权归原作者，本仓库只引用地址不复制源码。",
+  "task": [
+    "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺(NobyDa), enabled=false",
+    "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解(NobyDa), enabled=false",
+    "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js, tag=哔哩漫画(NobyDa), enabled=false",
+    "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js, tag=快看漫画(NobyDa), enabled=false",
+    "0 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js, tag=什么值得买(chavy), enabled=false",
+    "0 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通(chavy), enabled=false",
+    "0 10 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js, tag=V2EX(chavy), enabled=false",
+    "0 10 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, tag=网易云音乐(chavy), enabled=false",
+    "0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/github.js, tag=GitHub监控(Peng-YM), enabled=false",
+    "0 8 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js, tag=汇率(Peng-YM), enabled=false",
+    "0 8 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js, tag=流量统计(Peng-YM), enabled=false",
+    "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/geo_location.js, tag=查询节点信息(XIAO), enabled=true",
+    "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=查询流媒体解锁(XIAO), enabled=true",
+    "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/ytb-ui-check.js, tag=查询YouTube地区(XIAO), enabled=true"
+  ]
+}
