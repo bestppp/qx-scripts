@@ -60,6 +60,42 @@
       "author": "@local",
       "repo": "https://github.com/bestppp/qx-scripts",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png"]
+    },
+    {
+      "id": "tieba",
+      "name": "百度贴吧",
+      "keys": ["tieba_bduss"],
+      "settings": [
+        { "id": "tieba_bduss", "name": "BDUSS", "val": "", "type": "textarea" }
+      ],
+      "author": "@local",
+      "repo": "https://github.com/bestppp/qx-scripts",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png"]
+    },
+    {
+      "id": "geely",
+      "name": "吉利汽车",
+      "keys": ["geely_token", "geely_devicesn"],
+      "settings": [
+        { "id": "geely_token", "name": "token", "val": "", "type": "textarea" },
+        { "id": "geely_devicesn", "name": "deviceSN", "val": "", "type": "text" }
+      ],
+      "author": "@local",
+      "repo": "https://github.com/bestppp/qx-scripts",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png"]
+    },
+    {
+      "id": "quark",
+      "name": "夸克网盘",
+      "keys": ["quark_kps", "quark_sign", "quark_vcode"],
+      "settings": [
+        { "id": "quark_kps", "name": "kps", "val": "", "type": "textarea" },
+        { "id": "quark_sign", "name": "sign", "val": "", "type": "textarea" },
+        { "id": "quark_vcode", "name": "vcode", "val": "", "type": "text" }
+      ],
+      "author": "@local",
+      "repo": "https://github.com/bestppp/qx-scripts",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/task.png"]
     }
   ]
 }

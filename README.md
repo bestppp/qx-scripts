@@ -25,7 +25,10 @@ QX 需开启 VPN / Tunnel，定时任务还要打开右上角闹钟。
 | 金典 | `msmarket.msx.digitalyili.com` | `access-token`（金典小程序） |
 | 安慕希 | 同上 | `access-token`（安慕希小程序，和金典不是同一个） |
 | 塔斯汀 | `sss-web.tastientech.com` | `user-token` |
+| 百度贴吧 | `tieba.baidu.com` | Cookie 里的 `BDUSS` |
+| 吉利汽车 | `app.geely.com` | 请求头 `token` + `deviceSN` |
+| 夸克网盘 | `drive-m.quark.cn` | URL 参数 `kps`、`sign`、`vcode` |
 
 抓完不要在网页/小程序里退出登录。嘉立创会话空闲会掉，请保留保活任务。
 
-贴吧等成熟脚本请直接订阅 NobyDa / chavyleung，本仓库不重复造轮子。
+贴吧单次最多签 40 个吧，避免 QX 任务超时。WPS / 顺丰 / 小米商城加密或任务链较长，继续用呆呆面板跑。
